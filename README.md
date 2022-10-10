@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @TAnilkar
 - 👀 I’m interested in Programming
 - 🌱 I’m currently learning Java
-- 💞️ I’m looking to collaborate on Instagram
 - 📫 My Username is @tejas_anilkar
 
 <!---
