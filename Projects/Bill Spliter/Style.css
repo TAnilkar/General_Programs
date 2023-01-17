@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+ background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #953);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#box {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  margin-top: 25vh;
+
+  padding: 30px;
+  border: 10px solid lightgrey;
+  border-bottom-color: hotpink;
+  border-radius: 7px;
+
+
+/* From https://css.glass */
+background: rgba(79, 45, 45, 0.58);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.4px);
+-webkit-backdrop-filter: blur(7.4px);
+border: 1px solid rgba(79, 45, 45, 0.33);
+}
+
+p {
+  font-size: 13px;
+}
+
+input,
+button {
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: orangered;
+  border-color: orangered;
+}
+
+#result {
+  font-weight: bold;
+  font-size: 17px;
+}

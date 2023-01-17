@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: linear-gradient(
+    48deg,
+    rgba(0, 24, 151, 1) 7%,
+    rgba(0, 0, 0, 1) 97%
+  );
+
+  font-family: "Poppins", sans-serif;
+  background: rgb(248,252,167);
+  background: linear-gradient(140deg, rgba(248,252,167,1) 0%, rgba(134,208,254,1) 100%);
+  background-image: linear-gradient( 135deg, #FEC163 10%, #DE4313 100%);
+}
+
+
+#box {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  margin-top: 25vh;
+
+  padding: 20;
+  border-radius: 7px;
+
+  /* From https://css.glass */
+background: rgba(65, 55, 55, 0.208);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.4px);
+-webkit-backdrop-filter: blur(6.4px);
+border: 1px solid rgba(65, 55, 55, 0.38);
+}
+
+
+
+p {
+  font-size: 13px;
+
+}
+
+input,
+button {
+  padding: 10px;
+  outline: none;
+  border-radius: 7px;
+
+}
+
+button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 10ms;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: rgba(28, 202, 132, 0.746);
+  border-color: whitesmoke;
+}
+
+#result {
+  font-weight: bold;
+  font-size: 17px;
+}
